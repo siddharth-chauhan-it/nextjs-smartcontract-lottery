@@ -22,11 +22,11 @@ html {
     rgb(var(--background-start-rgb));
 }
 
-/* body {
-  min-height: 100vh;
-  overflow: hidden;
-  position: relative;
-} */
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+}
 
 @layer utilities {
   .text-balance {

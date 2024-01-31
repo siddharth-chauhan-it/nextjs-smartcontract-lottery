@@ -30,8 +30,8 @@ export default function Home() {
           <LotteryEntrance />
           {windowWidth < 1921 && (
             <div className="">
-              <div className="animate-pulse-slow z-0 absolute top-[-50px] right-[-700px] xl:right-[-750px] xxl:right-[-900px] w-[100vh] h-[65vh] rounded-[50%] blur-[120px] bg-[#5c3bff]" />
-              <div className="animate-pulse-slow z-0 absolute bottom-[-50px] right-[-700px] xl:right-[-750px] xxl:right-[-900px] w-[100vh] h-[65vh] rounded-[50%] blur-[120px] bg-[#5c3bff]" />
+              <div className="animate-pulse-slow z-0 absolute top-[-50px] right-[-570px] sm:right-[-700px] xl:right-[-750px] xxl:right-[-900px] w-[100vh] h-[80vh] sm:h-[65vh] rounded-[50%] blur-[70px] sm:blur-[120px] bg-[#5c3bff]" />
+              <div className="animate-pulse-slow z-0 absolute bottom-[-50px] right-[-570px] sm:right-[-700px] xl:right-[-750px] xxl:right-[-900px] w-[100vh] h-[80vh] sm:h-[65vh] rounded-[50%] blur-[70px] sm:blur-[120px] bg-[#5c3bff]" />
             </div>
           )}
         </WebsiteContainer>
